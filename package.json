@@ -1,0 +1,32 @@
+{
+  "name": "restaurent-website",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Create website with HTML and CSS",
+  "engine": {
+    "node": "12.x"
+  },
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"No Test set up\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thai-bit/restaurent-website.git"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
+  "author": "Boonthai Yan",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "3.0.0"
+  }
+}
